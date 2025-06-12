@@ -1,0 +1,142 @@
+*{
+  font-family:sans-serif;
+}
+
+h1{
+  font-family:  Georgia,Impact,'Arial Narrow Bold', sans-serif;
+}
+
+.nav-link{
+  font-size: 20px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.carousel-item {
+  height: 93vh;
+  position: relative;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.512); 
+  padding: 20px;
+}
+
+/* about us */
+.about-heading{
+  font-size: 50px;
+  font-family:'Times New Roman', Times, ;
+}
+
+.col-lg-3 img {
+  height: 400px;       
+  object-fit: cover;    
+}
+
+/*  our offer  */
+.offer-heading{
+  font-size: 50px;
+  font-family:'Times New Roman', Times, ;
+}
+.col-lg-4 img{
+  height: 350px;  
+  width: 350px;     
+  object-fit: cover;  
+}
+
+.img-wrapper {
+  overflow: hidden;      /* hides the overflow from the image */
+  width: 100%;           /* or fixed width like 300px */
+}
+
+.zoom-img {
+  transition: transform 0.4s ease;
+}
+
+.img-wrapper:hover .zoom-img {
+  transform: scale(1.1); /* on hover, image zooms */
+}
+
+/* vedio */
+.video{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.111),rgba(0, 0, 0, 0.138)),url(/images/video.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 70vh;
+  background-size: cover;
+}
+
+.video-text{
+  font-size: 50px;
+}
+
+/* featured room */
+.featured-room-text{
+  font-size: 50px;
+}
+
+.featured-img {
+  position: relative;
+}
+
+/* ✅ This adds the gradient OVER the image */
+.featured-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.405), rgba(0, 0, 0, 0.647));
+  z-index: 1;
+  pointer-events: none;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  z-index: 2;
+}
+.h-400 {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+.book-btn {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+
+/* Show button on hover */
+.featured-img:hover .book-btn {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* Reservation  */
+.Reservation-text{
+  font-size: 50px;
+}
+
+/* gallery */
+.col-lg-3 img{
+  height: 300px;
+}
+
+

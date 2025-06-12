@@ -178,7 +178,7 @@ h1{
 
 /*===============================================================  */
 .room-banner{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0.5)),url(/images/offer1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0.5)),url(offer1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;

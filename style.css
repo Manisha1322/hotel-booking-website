@@ -72,7 +72,7 @@ h1{
 
 /* vedio */
 .video{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.111),rgba(0, 0, 0, 0.138)),url(/images/video.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.111),rgba(0, 0, 0, 0.138)),url(video.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
